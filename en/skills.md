@@ -92,7 +92,7 @@ cat "$P/.mcp.json" 2>/dev/null          # MCP servers it starts
 ls -la "$P/bin" 2>/dev/null             # executables it adds to PATH
 ```
 
-The repository includes `revisar-plugin.sh`, which runs steps 3 and 4 in one go on any plugin folder. Also remember that auto-update can change the files you reviewed: it is off by default for third-party marketplaces; leave it that way. To harden what Claude can do, see also [Security hooks](https://ctrlia.dev/en/recetas/hooks-seguridad.html).
+The repository includes `review-plugin.sh`, which runs steps 3 and 4 in one go on any plugin folder. Also remember that auto-update can change the files you reviewed: it is off by default for third-party marketplaces; leave it that way. To harden what Claude can do, see also [Security hooks](https://ctrlia.dev/en/recetas/hooks-seguridad.html).
 
 ## Which to avoid (or think twice about)
 

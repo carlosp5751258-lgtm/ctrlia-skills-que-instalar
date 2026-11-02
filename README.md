@@ -2,6 +2,8 @@
 
 🇬🇧 [Read in English](README.en.md)
 
+English version: [README.en.md](README.en.md) (archivos en `en/`).
+
 Lista corta y fechada de skills y plugins para Claude Code con el comando exacto de instalación, quién los publica y su
 coste en tokens por turno medido con `claude plugin details`, más un script que te enseña qué ejecuta un plugin antes de
 que confíes en él.
@@ -11,7 +13,7 @@ Página completa: [ctrlia.dev (ES)](https://ctrlia.dev/recetas/skills-que-instal
 
 ## Qué incluye
 
-- `skills.md` / `skills.en.md`: los cuatro caminos de instalación, las recomendadas con su coste medido, cómo medir
+- `skills.md` / `en/skills.md`: los cuatro caminos de instalación, las recomendadas con su coste medido, cómo medir
   cualquier otra, el protocolo de seguridad en 4 pasos y cuáles evitar.
 - `revisar-plugin.sh`: muestra el manifiesto, los hooks, los servidores MCP, los ejecutables de `bin/`, el `allowed-tools`
   de cada `SKILL.md` y las líneas con descargas, `eval`, `base64` o borrados. **Solo lee archivos**: no instala, no carga
